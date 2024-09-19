@@ -10,4 +10,9 @@
 
 .item {
     color: black;
+    font-family: "Bauhaus 93";
+    font-size: xx-large;
+    position: relative;
+    top: -40px;
+    left: 700px;
 }

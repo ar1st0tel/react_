@@ -1,13 +1,17 @@
 .app-wrapper {
-  margin: 0 auto;
-  width: 1400px;
-  display: grid;
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  /*grid-gap: 10px;*/
-  grid-template-areas:
+    margin: 0 auto;
+    width: 1400px;
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /*grid-gap: 10px;*/
+    grid-template-areas:
   "h h"
   "n c"
 }
 
-
+.app-wrapper-content {
+    grid-area: c;
+    background-color: coral;
+    font-family: "Bauhaus 93";
+}

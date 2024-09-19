@@ -1,11 +1,16 @@
 .nav {
     grid-area: n;
     background-color: brown;
+    padding: 10px;
 }
 
-.item {
+.item a {
     color: white;
+    font-family: "Bauhaus 93";
+    text-decoration: none;
 }
-.item.active {
+.item a:active,
+.item a:focus {
     color: chartreuse;
+    font-family: "Bauhaus 93";
 }

@@ -4,7 +4,13 @@
 }
 .item {
     color: paleturquoise;
+    font-family: "Bauhaus 93";
 }
 .item img {
     width: 50px
+}
+.secondItem {
+    color: white;
+    font-family: "Bauhaus 93";
+    padding: 10px;
 }
